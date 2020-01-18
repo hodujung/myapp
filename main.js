@@ -35,6 +35,7 @@ var app = http.createServer(function(request,response){
     </body>
     </html>
     `;
+    console.log(template);
     response.end(template);
 
 });
